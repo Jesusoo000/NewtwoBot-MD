@@ -14,7 +14,7 @@ termux-setup-storage
 
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 
-git clone https://github.com/MultiBot-OFC/NaufraZapp-MD && cd NewtwoBot-MD 
+git clone https://github.com/Jesusoo000/NewtwoBot-MD && cd NewtwoBot-MD 
 
 yarn install && npm install
 •─────────────────···•⊰ ⋆
