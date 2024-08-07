@@ -37,7 +37,7 @@ await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}
 //console.log('Error 1 ' + E1)  
 try {  
 let mediaa = await ytMp4(youtubeLink)
-await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `ExoticoBot-MD`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
+await conn.sendMessage(m.chat, { video: { url: mediaa.result }, fileName: `error.mp4`, caption: `NewtwoBot-MD`, thumbnail: mediaa.thumb, mimetype: 'video/mp4' }, { quoted: m })     
 } catch (E2) {  
 
 try {
@@ -47,7 +47,7 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `NaufraZapp-MD`, thumbnail: await fetch(n4) }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `NewtwoBot-MD`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch (E3) {
 
 await conn.reply(m.chat, `❮⚠️❯ » 𝙀𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙝𝙖 𝙛𝙖𝙡𝙡𝙖𝙙𝙤 𝙥𝙤𝙧 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤, 𝙧𝙚𝙥𝙤𝙧𝙩𝙖𝙡𝙤 𝙖𝙡 𝙘𝙧𝙚𝙖𝙙𝙤𝙧 𝙙𝙚𝙡 𝙗𝙤𝙩.`, m)
