@@ -47,7 +47,7 @@ await this.sendMessage(m.chat, { text: `『✦』Se ha configurado los ajustes d
 } else if (chat.detect2 && m.messageStubType == 29) {
 let txt1 = `『✦』 @${m.sender.split`@`[0]} ha promovido admin a:\n`
 txt1 += `@${m.messageStubParameters[0].split`@`[0]}\n\n`
-txt1 += `> NaufraZapp-MD`
+txt1 += `> NewtwoBot-MD`
 
 await conn.sendMessage(m.chat, {text: txt1, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": img, "mediaUrl": links, "sourceUrl": links}}})
 
