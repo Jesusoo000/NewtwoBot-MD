@@ -8,38 +8,26 @@ import axios from 'axios';
 import moment from 'moment-timezone'
 
 global.owner = [ //OWNERS
-["5493873232212", '𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥-𝙈𝘿', true], 
-["573108625104"],
-["34626817680"],
-["5493873232221"],
-["523142183828"],
-["51918534156"],
-["527421168105"],
-["5491125655633"],
-["51929838430"],
-["529982464299"],
-["51921207166"],
-["5491125730852"],
-["5491133980551"]]
+["5491168758497", 'EnzitoOfc', true]]
 
 global.botNumberCode = ''
 global.confirmCode = ''
 
-global.suittag = ['5493873232212']
+global.suittag = ['5491168758497']
 global.mods = []
 global.prems = []
 
 
-global.isdev = [['5493873232212'],
-['5493873232221'],
-['51929838430']]
+global.isdev = [['5491168758497'],
+['5491168758497'],
+['5491168758497']]
 
 
-global.packname = '𝙉𝘢𝘶𝘧𝘳𝘢𝙕𝘢𝘱𝘱-𝙈𝘋'
-global.author = '𝙉𝙖𝙪𝙛𝙧𝙖𝙜𝙤'
-global.wm = '𝙉𝘢𝘶𝘧𝘳𝘢𝙕𝘢𝘱𝘱-𝙈𝘋 │ ᵐᵘˡᵗⁱᵇᵒᵗ-ᵒᶠᶜ'
-global.wm2 = '𝙉𝘡│ᵇᵒᵗ'
-global.naufrago = '𝙉𝙖𝙪𝙛𝙧𝙖𝙕𝙖𝙥𝙥│ᴄᴀɴᴀʟ • ʸᵗ'
+global.packname = '𝑵𝒆𝒘𝒕𝒘𝒐𝑩𝒐𝒕-𝑴𝑫'
+global.author = '𝙽𝚎𝚠𝚝𝚠𝚘𝙱𝚘𝚝'
+global.wm = '𝙉𝙚𝙬𝙩𝙬𝙤𝘽𝙤𝙩-𝙈𝘿 │ ᵐᵘˡᵗⁱᵇᵒᵗ-ᵒᶠᶜ'
+global.wm2 = 'NW│ᵇᵒᵗ'
+global.naufrago = '【ＮｅｗｔｗｏＢｏｔ－ＭＤ】│ᴄᴀɴᴀʟ • ʸᵗ'
 global.cb = '🅽︎🆉︎︎'
 
 global.vs = '1.8.0'
@@ -51,8 +39,8 @@ global.dev = '✯ Naufrago ✯'
 global.devnum = '+54 9 3873 23-2212'
 
 global.imgAll = fs.readFileSync('./Menu1.jpg')
-global.naufraAll = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
-global.nzLink = 'https://chat.whatsapp.com/I7A2Q6EXtmE6d7zOxyYF3L'
+global.naufraAll = 'https://chat.whatsapp.com/GM7KnXU35gZKBA3MjbAUtH'
+global.nzLink = 'https://chat.whatsapp.com/GM7KnXU35gZKBA3MjbAUtH'
 global.nzMenus = fs.readFileSync('./Menu2.jpg')
 global.naufraImg = 'https://telegra.ph/file/4c4de4fbd4b87fc6c397d.jpg'
 	
@@ -105,14 +93,14 @@ global.iimg5 = 'https://i.postimg.cc/gJntKTG1/e872a51954db06122d6108df482ef157.j
 global.yt = 'https://youtube.com/@user-bw5wl4ye8r?si=qN8bP4ZdKm3yXwbx'
 global.ig = 'https://www.instagram.com/naufrazapp?igsh=Y2g1ZXJxbm53eXAy'
 global.md = 'https://github.com/MultiBot-OFC/NaufraZapp-MD'
-global.paypal = 'https://www.paypal.me/NaufragoSolano'
+global.paypal = ''
 global.git = 'https://github.com/MultiBot-OFC/NaufraZapp-MD'
 global.linkwabot = 'https://wa.me/5491133982337?text=.menu'
-global.email = 'guardianbotmdoficial@gmail.com'
-global.grupo1 = 'https://chat.whatsapp.com/EU64G8ocaVPJElHf28HqVy'
-global.grupo2 = 'https://chat.whatsapp.com/KE2Z71nVMUcCgzLAypL8XU'
-global.canal = 'https://whatsapp.com/channel/0029VaRibRvDuMRj6ozMSN1l'
-global.paypal2 = 'https://www.paypal.me/ColaboracionBotOFC'
+global.email = ''
+global.grupo1 = 'https://chat.whatsapp.com/GM7KnXU35gZKBA3MjbAUtH'
+global.grupo2 = 'https://chat.whatsapp.com/GM7KnXU35gZKBA3MjbAUtH'
+global.canal = ' https://whatsapp.com/channel/0029VajIId22phHQLslZah1n'
+global.paypal2 = ''
 global.creador = 'https://wa.me/51929838430'
 global.asistencia = 'https://wa.me/5493873232221?text=Hola'
 
