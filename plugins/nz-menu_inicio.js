@@ -15,7 +15,7 @@ Antes de comenzar a utilizar el bot, no se olvide de *verificarse o registrarse*
 `
 await conn.sendButton(m.chat, menu, wm, imagebot, [
 ['𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 💥', '.menucompleto'],
-['𝘼𝙐𝙏𝙊 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 ✅', '#reg Newtwo.20']], null, [
+['𝘼𝙐𝙏𝙊 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼𝙍 ✅', '#reg NilouBot.20']], null, [
 ['𝘾𝘼𝙉𝘼𝙇 𝙊𝙁𝙄𝘾𝙄𝘼𝙇🌎', `${canal}`]], null, null, fkontak)}
 handler.command = /^menu|help|comandos|memu|menú|memú$/i
 handler.register = false
